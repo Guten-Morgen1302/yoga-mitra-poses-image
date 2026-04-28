@@ -1,0 +1,35 @@
+# Exclude URL list files
+*.txt
+
+# Exclude metadata file
+yogabase.yoga.json
+
+# Exclude Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Exclude virtual environment
+.venv/
+venv/
+env/
+
+# Exclude IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+
+# Exclude logs
+*.log
+download_log.txt
+
+# Exclude temp directories
+temp/
+temp_downloads/
