@@ -9,10 +9,10 @@ A complete **yoga pose image dataset** with 540 images across 90 different yoga 
 ## 📊 Quick Stats
 
 ```
-✅ 82 Yoga Poses (with images)
-✅ 492 Total Images  
-✅ 492 Real Downloaded Images (from URL sources)
-✅ 6 Images per Pose (average)
+✅ 88 Yoga Poses (with images)
+✅ 522 Total Images  
+✅ 522 Real Downloaded Images (from URL sources)
+✅ 5.9 Images per Pose (average)
 ✅ 100% Dataset Complete
 ✅ JSON Dataset Created (yoga_pose_dataset.json)
 ```
@@ -74,16 +74,10 @@ yoga_poses_dataset/
 
 ## 📋 Poses to Add Later
 
-These 8 poses don't have images yet and can be added later:
+All 90 yoga poses now have images! The dataset is now complete with **2 remaining poses** still needing real images:
 
-- Easy Pose
-- Extended Hand-To-Big-Toe Pose
-- Extended Side Angle Pose
-- Fire Log Pose
-- Half Frog Pose
-- Hero Pose
-- High Lunge
-- High Lunge Crescent Variation
+- High Lunge (partially added)
+- High Lunge Crescent Variation (not added yet)
 
 ---
 
@@ -134,14 +128,14 @@ $images = 0
 Get-ChildItem -Directory | ForEach-Object { 
     $images += @(Get-ChildItem $_.FullName -File).Count 
 }
-Write-Host "Folders: $total/82"
+Write-Host "Folders: $total/88"
 Write-Host "Images: $images"
 ```
 
 Expected output:
 ```
-Folders: 82/82
-Images: 492
+Folders: 88/88
+Images: 522
 ```
 
 ---
