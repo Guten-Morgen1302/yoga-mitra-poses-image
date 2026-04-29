@@ -88,14 +88,14 @@ image_2.jpg	https://example.com/yoga_pose_image_2.jpg
 
 These poses had no URL sources available, so placeholder images were created:
 
-- **20_Easy Pose** - 6 placeholder images
-- **22_Extended Hand-To-Big-Toe Pose** - 6 placeholder images
-- **24_Extended Side Angle Pose** - 6 placeholder images
-- **27_Fire Log Pose** - 6 placeholder images
-- **33_Half Frog Pose** - 6 placeholder images
-- **39_Hero Pose** - 6 placeholder images
-- **41_High Lunge** - 6 placeholder images
-- **42_High Lunge, Crescent Variation** - 6 placeholder images
+1. **20_Easy Pose** - 6 placeholder images
+2. **22_Extended Hand-To-Big-Toe Pose** - 6 placeholder images
+3. **24_Extended Side Angle Pose** - 6 placeholder images
+4. **27_Fire Log Pose** - 6 placeholder images
+5. **33_Half Frog Pose** - 6 placeholder images
+6. **39_Hero Pose** - 6 placeholder images
+7. **41_High Lunge** - 6 placeholder images
+8. **42_High Lunge, Crescent Variation** - 6 placeholder images
 
 **Placeholder Image Specifications:**
 - Format: JPEG (quality=95)

@@ -307,14 +307,14 @@ for pose in poses:
 
 These 8 poses currently have placeholder images:
 
-- Easy Pose
-- Extended Hand-To-Big-Toe Pose
-- Extended Side Angle Pose
-- Fire Log Pose
-- Half Frog Pose
-- Hero Pose
-- High Lunge
-- High Lunge Crescent Variation
+1. Easy Pose
+2. Extended Hand-To-Big-Toe Pose
+3. Extended Side Angle Pose
+4. Fire Log Pose
+5. Half Frog Pose
+6. Hero Pose
+7. High Lunge
+8. High Lunge Crescent Variation
 
 **To replace:** Download real images and save them with the same naming convention in the respective folders.
 

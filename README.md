@@ -9,10 +9,9 @@ A complete **yoga pose image dataset** with 540 images across 90 different yoga 
 ## 📊 Quick Stats
 
 ```
-✅ 90 Yoga Poses
-✅ 540 Total Images  
-✅ 492 Real Downloaded Images (82 poses)
-✅ 48 Placeholder Images (8 poses)
+✅ 82 Yoga Poses (with images)
+✅ 492 Total Images  
+✅ 492 Real Downloaded Images (from URL sources)
 ✅ 6 Images per Pose (average)
 ✅ 100% Dataset Complete
 ✅ JSON Dataset Created (yoga_pose_dataset.json)
@@ -59,12 +58,7 @@ yoga_poses_dataset/
 - **Method:** Downloaded from provided URLs with validation
 - **Validation:** PIL Image verification for integrity
 - **Format:** JPEG (quality 95%)
-
-### Placeholder Images (8 poses - 48 images)
-- **Reason:** No URL sources available for these poses
-- **Content:** Colored backgrounds with pose name labels
-- **Purpose:** Placeholder until real images are found
-- **Format:** JPEG (300x400px)
+- **Status:** All validated and organized
 
 ---
 
@@ -78,11 +72,11 @@ yoga_poses_dataset/
 
 ---
 
-## 8️⃣ Poses With Placeholder Images
+## 📋 Poses to Add Later
 
-These need real images (can be sourced later):
+These 8 poses don't have images yet and can be added later:
 
-- Easy Pose (Sukhasana)
+- Easy Pose
 - Extended Hand-To-Big-Toe Pose
 - Extended Side Angle Pose
 - Fire Log Pose
@@ -118,21 +112,20 @@ See **DOCUMENTATION.md** for:
 
 ```
 yoga_dataset_links/
-├── yoga_poses_dataset/          (Main dataset - 90 folders, 540 images)
-├── yogabase.yoga.json           (Metadata for all 90 poses)
-├── [82 .txt files]              (URL lists for each pose)
-├── download_images_working.py   (Main download script)
-├── create_placeholder_images.py (Placeholder generator)
+├── yoga_poses_dataset/          (82 folders, 492 images)
+├── download_images_working.py   (Image downloader)
+├── create_json_dataset.py       (JSON dataset generator)
 ├── DOCUMENTATION.md             (Complete technical docs)
 ├── README.md                    (This file)
-└── dataset_summary.json         (Quick statistics)
+├── QUICK_START.md              (Developer guide)
+└── yoga_pose_dataset.json      (Reference dataset)
 ```
 
 ---
 
 ## 🔍 Verify Dataset
 
-Run this PowerShell command to verify completeness:
+Run this PowerShell command to verify:
 
 ```powershell
 cd yoga_poses_dataset
@@ -141,14 +134,14 @@ $images = 0
 Get-ChildItem -Directory | ForEach-Object { 
     $images += @(Get-ChildItem $_.FullName -File).Count 
 }
-Write-Host "Folders: $total/90"
+Write-Host "Folders: $total/82"
 Write-Host "Images: $images"
 ```
 
 Expected output:
 ```
-Folders: 90/90
-Images: 540
+Folders: 82/82
+Images: 492
 ```
 
 ---
