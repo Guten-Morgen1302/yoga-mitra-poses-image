@@ -82,14 +82,14 @@ yoga_poses_dataset/
 
 These need real images (can be sourced later):
 
-1. Easy Pose (Sukhasana)
-2. Extended Hand-To-Big-Toe Pose
-3. Extended Side Angle Pose
-4. Fire Log Pose
-5. Half Frog Pose
-6. Hero Pose
-7. High Lunge
-8. High Lunge Crescent Variation
+- Easy Pose (Sukhasana)
+- Extended Hand-To-Big-Toe Pose
+- Extended Side Angle Pose
+- Fire Log Pose
+- Half Frog Pose
+- Hero Pose
+- High Lunge
+- High Lunge Crescent Variation
 
 ---
 
