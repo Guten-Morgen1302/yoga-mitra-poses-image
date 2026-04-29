@@ -1,0 +1,63 @@
+{
+  "total_placeholder_poses": 8,
+  "reason": "These poses had no URL sources in the original dataset",
+  "next_step": "Find real yoga pose images and replace the placeholder images",
+  "poses": {
+    "20_Easy Pose": {
+      "id": 20,
+      "original_name": "Easy Pose",
+      "sanskrit": "Sukhasana",
+      "status": "placeholder",
+      "reason": "No URL source available"
+    },
+    "22_Extended Hand-To-Big-Toe Pose": {
+      "id": 22,
+      "original_name": "Extended Hand-To-Big-Toe Pose",
+      "sanskrit": "Utthita Hasta Padangusthasana",
+      "status": "placeholder",
+      "reason": "No URL source available"
+    },
+    "24_Extended Side Angle Pose": {
+      "id": 24,
+      "original_name": "Extended Side Angle Pose",
+      "sanskrit": "Utthita Parsvakonasana",
+      "status": "placeholder",
+      "reason": "No URL source available"
+    },
+    "27_Fire Log Pose": {
+      "id": 27,
+      "original_name": "Fire Log Pose",
+      "sanskrit": "Agnisthasana",
+      "status": "placeholder",
+      "reason": "No URL source available"
+    },
+    "33_Half Frog Pose": {
+      "id": 33,
+      "original_name": "Half Frog Pose",
+      "sanskrit": "Ardha Bhekasana",
+      "status": "placeholder",
+      "reason": "No URL source available"
+    },
+    "39_Hero Pose": {
+      "id": 39,
+      "original_name": "Hero Pose",
+      "sanskrit": "Virasana",
+      "status": "placeholder",
+      "reason": "No URL source available"
+    },
+    "41_High Lunge": {
+      "id": 41,
+      "original_name": "High Lunge",
+      "sanskrit": "Alanasana",
+      "status": "placeholder",
+      "reason": "No URL source available"
+    },
+    "42_High Lunge, Crescent Variation": {
+      "id": 42,
+      "original_name": "High Lunge, Crescent Variation",
+      "sanskrit": "Crescent Lunge",
+      "status": "placeholder",
+      "reason": "No URL source available"
+    }
+  }
+}
